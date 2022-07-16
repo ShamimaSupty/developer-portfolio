@@ -10,15 +10,17 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
 }
 .half-width img{
   width: 60%;
   margin-top: 20%;
-  padding-left: 5%;
+  padding-left: 30%;
 }
 .link-button{
     text-decoration: none;
@@ -30,4 +32,18 @@ section{
 .top-banner{
     background-image: url(img/top-banner.png) ;
     background-repeat: no-repeat;
+}
+.scndimg-width img{
+width: 50%;
+padding-left: 5%;
+
+}
+
+.dream-sec{
+    display: flex;
+}
+.dream-sec{
+    background-image: url(img/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
 }
